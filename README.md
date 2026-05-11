@@ -344,8 +344,6 @@ Some possible future improvements:
 
 ---
 
----
-
 ## Disclaimer
 
 This project is intended for research and educational purposes only and should not be used for clinical diagnosis.
