@@ -144,21 +144,7 @@ Rather than training from scratch, ImageNet pre-trained weights were used and la
 
 ### Initial CNN Results
 
-The first training runs performed significantly better than tabular models, but the models still showed bias toward majority classes and struggled on minority classes like OCA.
-
-| Model | Accuracy |
-|---|---|
-| ResNet101 | 56.72% |
-| DenseNet201 | 53.05% |
-| EfficientNetB3 | 48.17% |
-
-<p align="center">
-  <img src="images/resnet_initial.png" width="32%">
-  <img src="images/densenet_initial.png" width="32%">
-  <img src="images/efficientnet_initial.png" width="32%">
-</p>
-
----
+The first training runs performed significantly better than tabular models, but the models still showed bias toward majority classes and struggled on minority classes like OCA. Therefore I improved minority class detection
 
 ### Improving Minority Class Detection
 
@@ -180,14 +166,14 @@ The updated models showed noticeable improvement in recall and F1-score for mino
 
 | Model | Accuracy |
 |---|---|
-| ResNet101 | 59.69% |
-| DenseNet201 | 59.69% |
-| EfficientNetB3 | 59.51% |
+| ResNet101 | 56.72% |
+| DenseNet201 | 53.05% |
+| EfficientNetB3 | 48.17% |
 
 <p align="center">
-  <img src="images/resnet_final.png" width="32%">
-  <img src="images/densenet_final.png" width="32%">
-  <img src="images/efficientnet_final.png" width="32%">
+  <img src="images/resnet_initial.png" width="32%">
+  <img src="images/densenet_initial.png" width="32%">
+  <img src="images/efficientnet_initial.png" width="32%">
 </p>
 
 ---
@@ -234,9 +220,9 @@ The Hybrid Model achieved slightly better and more balanced performance compared
 | Hybrid EfficientNetB3 | 59.51% |
 
 <p align="center">
-  <img src="images/hybrid_resnet.png" width="32%">
-  <img src="images/hybrid_densenet.png" width="32%">
-  <img src="images/hybrid_efficientnet.png" width="32%">
+  <img src="images/resnet_final.png" width="32%">
+  <img src="images/densenet_final.png" width="32%">
+  <img src="images/efficientnet_final.png" width="32%">
 </p>
 
 The hybrid approach improved overall balance between classes, although minority class prediction still remained challenging because of dataset imbalance and limited samples for OCA.
