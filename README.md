@@ -178,18 +178,6 @@ The updated models showed noticeable improvement in recall and F1-score for mino
 
 ---
 
-### Training Behaviour
-
-The training curves clearly showed the impact of fine-tuning and class weighting on validation performance and convergence stability.
-
-<p align="center">
-  <img src="images/training_curves.png" width="85%">
-</p>
-
-The CNN-based approach significantly outperformed earlier tabular models and provided much better feature learning from medical images.
-
----
-
 ## 3. Hybrid Deep Learning Model
 
 After experimenting with standalone CNN models, I explored a Hybrid Deep Learning approach by combining:
