@@ -9,10 +9,6 @@
   <img src="images/banner.png" width="100%">
 </p>
 
-<p align="center">
-  Deep Learning • Medical Imaging • Computer Vision • Segmentation
-</p>
-
 ---
 
 ## Overview
