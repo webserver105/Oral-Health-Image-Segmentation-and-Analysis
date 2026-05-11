@@ -68,8 +68,7 @@ I initially started with patient metadata and habit-based features such as smoki
 - Neural Networks
 - XGBoost
 
-The goal was to check whether patient habits and demographic information alone could help classify
-
+The goal was to check whether patient habits and demographic information alone could help classify oral disease categories.
 Because of severe class imbalance, the models became biased toward majority classes and struggled on minority classes like OCA.
 
 ### Initial Results
