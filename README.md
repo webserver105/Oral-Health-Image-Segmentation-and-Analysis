@@ -38,6 +38,19 @@ The objective was to classify:
 
 ---
 
+## Tech Stack
+
+- Python
+- TensorFlow / Keras
+- OpenCV
+- Scikit-learn
+- NumPy
+- Pandas
+- Matplotlib
+- XGBoost
+
+---
+
 ## Project Pipeline
 
 <p align="center">
